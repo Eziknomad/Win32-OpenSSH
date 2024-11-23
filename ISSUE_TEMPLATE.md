@@ -9,7 +9,7 @@ Please answer the following
 
 **"OpenSSH for Windows" version**
  `((Get-Item (Get-Command sshd).Source).VersionInfo.FileVersion)`
- 
+
 **Server OperatingSystem**
  `((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows nt\CurrentVersion\" -Name ProductName).ProductName)`
 
