@@ -1,9 +1,9 @@
-**Troubleshooting steps**
-https://github.com/PowerShell/Win32-OpenSSH/wiki/Troubleshooting-Steps
+# Troubleshooting steps
 
+[Troubleshooting Steps](https://github.com/PowerShell/Win32-OpenSSH/wiki/Troubleshooting-Steps)
 
 **Terminal issue? please go through wiki**
-https://github.com/PowerShell/Win32-OpenSSH/wiki/TTY-PTY-support-in-Windows-OpenSSH
+[TTY-PTY support in Windows OpenSSH](https://github.com/PowerShell/Win32-OpenSSH/wiki/TTY-PTY-support-in-Windows-OpenSSH)
 
 Please answer the following
 
@@ -13,10 +13,10 @@ Please answer the following
 **Server OperatingSystem**
  `((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows nt\CurrentVersion\" -Name ProductName).ProductName)`
 
-**Client OperatingSystem**
+## Client OperatingSystem
 
-**What is failing**
+### What is failing
 
-**Expected output**
+### Expected output
 
-**Actual output**
+## Actual output
